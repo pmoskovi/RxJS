@@ -19,8 +19,8 @@
                   return splitStock;
                 })
                 .filter (function(stock) {
-                  return stock[1] == "MSFT";
-                  // return true;
+                  // return stock[1] == "MSFT";
+                  return true;
                 })
                 .forEach(function (stock) {
                   console.log (stock);
